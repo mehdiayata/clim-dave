@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
+.articles {
+    display: flex;
+    flex-direction: column;
+}
+.article {
+    color: rgb(48, 47, 47);
+    border-bottom: 3px solid grey;
+    margin-top: 50px;
+}
+
+.article .article_title {
+    
+   text-align: center;
+   font-family: 'DM Sans', sans-serif;
+    
+}
+
+.article .article_contents {
+    text-align: center;
+    
+   font-family: 'DM Sans', sans-serif;
+    
+    padding: 0px 100px 0px 100px;
+}
+
+.cards_article {
+    display: flex;
+    justify-content: center;
+}

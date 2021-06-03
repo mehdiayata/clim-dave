@@ -1,0 +1,44 @@
+.slide .card {
+    color: white;
+    background: black;
+    opacity: .6;
+    position: absolute;
+    bottom: 200px;
+    border: black solid 1px;
+
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+}
+
+.slide {
+    .card-title {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 30px;
+        border-bottom: 2px solid white;
+        padding-bottom: 5px;
+    }
+}
+
+.card-text {
+    z-index: 0;
+}
+
+ @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.6;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.6;
+    }
+  }
+  
