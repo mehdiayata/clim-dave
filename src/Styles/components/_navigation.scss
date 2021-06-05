@@ -47,3 +47,54 @@
         height: 100px;
     }
 }
+
+
+
+@media (max-width: 400px) {
+    .navigation {
+        padding: 10px 100px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        font-weight: bold;
+        background: linear-gradient(to top, white, rgb(212, 209, 209) 10px, rgb(99, 98, 98) 50%, rgb(0, 0, 0));
+        text-transform: uppercase;
+        
+    
+        .menu {
+            display: flex;
+            flex-direction: row;
+            font-size: 12px;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+    
+        .menu a {
+            margin: 5px;
+            padding: 5px;
+            text-decoration: none;
+            color: black;
+            position: relative;
+            text-align: center;
+        }
+        .nav-active {
+            &::after {
+                content: "";
+                width: 85%;
+                height: 5px;
+                background: rgb(0, 255, 191);
+                position: absolute;
+                bottom: 1px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+           
+    
+        }
+    
+        .navigation_logo {
+            height: 50px;
+            width: 50px;
+        }
+    }
+    
+}

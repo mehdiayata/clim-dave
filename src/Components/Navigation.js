@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
     return (
-        <div className="navigation row">
+        <div className="navigation">
 
 
             <div className="menu">

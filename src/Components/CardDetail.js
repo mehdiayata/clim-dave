@@ -8,7 +8,7 @@ const CardDetail = (props) => {
     return (
 
         <div className="cards">
-            <Card style={{ width: '25rem' }}>
+            <Card>
                 <Card.Img variant="top" src={card.img} />
                 <Card.Body>
                     <Card.Title>{card.title}</Card.Title>

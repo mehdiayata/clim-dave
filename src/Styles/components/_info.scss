@@ -11,7 +11,6 @@
     overflow: hidden;
     z-index: 1;
     border-bottom: 1px solid white;
-    
 }
 .info_contact {
     display: flex;
@@ -24,10 +23,9 @@
 .info_contact p {
     border-right: 1px solid whitesmoke;
     border-left: 1px solid whitesmoke;
-    
+
     margin: 0px 0px;
     padding: 15px 5px 15px 10px;
- 
 }
 
 .info_rs {
@@ -44,4 +42,28 @@
     height: 30px;
     width: 30px;
     margin-top: 5px;
+}
+
+@media (max-width: 400px) {
+    .info_site {
+        display: none;
+    }
+    .navigation {
+        margin-top: 0px;
+    }
+    .info_contact {
+    }
+
+    .info_contact svg {
+    }
+    .info_contact p {
+    }
+
+    .info_rs {
+    }
+
+    .info_rs p {
+    }
+    .info_rs svg {
+    }
 }
