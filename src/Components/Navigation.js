@@ -11,21 +11,21 @@ const Navigation = () => {
 
             <div className="menu">
 
-                <NavLink exact to='/' activeClassName="nav-active">
+                <NavLink to='/' activeClassName="nav-active">
                     <BsHouse/> Home
                 </NavLink>
 
-                <NavLink exact to='/realisation' activeClassName="nav-active">
+                <NavLink to='/realisation' activeClassName="nav-active">
                      <GiAutoRepair /> Réalisation
                 </NavLink>
 
                 
-                <NavLink exact to='/simulateur' activeClassName="nav-active">
+                <NavLink to='/simulateur' activeClassName="nav-active">
                     <AiOutlineCalculator /> Devis gratuit
                 </NavLink>
 
                 
-                <NavLink exact to='/contact' activeClassName="nav-active">
+                <NavLink to='/contact' activeClassName="nav-active">
                     <AiOutlineContacts /> Contact
                 </NavLink>
 
