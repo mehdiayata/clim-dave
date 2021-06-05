@@ -6,10 +6,9 @@ const CardDetail = (props) => {
     const { card } = props;
 
     return (
-
         <div className="cards">
             <Card>
-                <Card.Img variant="top" src={card.img} />
+                <Card.Img variant="top" src={card.img} key={card.id} />
                 <Card.Body>
                     <Card.Title>{card.title}</Card.Title>
                     <Card.Text>

@@ -47,7 +47,7 @@ const Slide = () => {
                             <h3></h3>
                             <p></p>
 
-                            <Card style={{ width: '30rem', height: '30rem'}}>
+                            <Card style={{ width: '30rem', height: '30rem'}} >
                                 <Card.Body>
                                     <Card.Title>{image.title}</Card.Title>
                                     <Card.Text>
