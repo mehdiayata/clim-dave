@@ -7,8 +7,6 @@ import { NavLink } from 'react-router-dom';
 const Navigation = () => {
     return (
         <div className="navigation">
-
-
             <div className="menu">
 
                 <NavLink to='/' activeClassName="nav-active">
