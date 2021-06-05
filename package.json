@@ -2,7 +2,7 @@
   "name": "dav-clim",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mehdiayata.github.io/",
+  "homepage": "https://mehdiayata.github.io/clim-dave",
   "dependencies": {
     "3d-react-carousal": "^3.1.0",
     "@testing-library/jest-dom": "^5.12.0",
