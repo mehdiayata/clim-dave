@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dave-clim/static/css/main.dd7e8b6c.chunk.css",
+    "main.js": "/dave-clim/static/js/main.f1f6da4a.chunk.js",
+    "main.js.map": "/dave-clim/static/js/main.f1f6da4a.chunk.js.map",
+    "runtime-main.js": "/dave-clim/static/js/runtime-main.ff90d50c.js",
+    "runtime-main.js.map": "/dave-clim/static/js/runtime-main.ff90d50c.js.map",
+    "static/css/2.993e87ff.chunk.css": "/dave-clim/static/css/2.993e87ff.chunk.css",
+    "static/js/2.7a715bee.chunk.js": "/dave-clim/static/js/2.7a715bee.chunk.js",
+    "static/js/2.7a715bee.chunk.js.map": "/dave-clim/static/js/2.7a715bee.chunk.js.map",
+    "static/js/3.7f00bcd8.chunk.js": "/dave-clim/static/js/3.7f00bcd8.chunk.js",
+    "static/js/3.7f00bcd8.chunk.js.map": "/dave-clim/static/js/3.7f00bcd8.chunk.js.map",
+    "index.html": "/dave-clim/index.html",
+    "static/css/2.993e87ff.chunk.css.map": "/dave-clim/static/css/2.993e87ff.chunk.css.map",
+    "static/css/main.dd7e8b6c.chunk.css.map": "/dave-clim/static/css/main.dd7e8b6c.chunk.css.map",
+    "static/js/2.7a715bee.chunk.js.LICENSE.txt": "/dave-clim/static/js/2.7a715bee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff90d50c.js",
+    "static/css/2.993e87ff.chunk.css",
+    "static/js/2.7a715bee.chunk.js",
+    "static/css/main.dd7e8b6c.chunk.css",
+    "static/js/main.f1f6da4a.chunk.js"
+  ]
+}
