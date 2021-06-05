@@ -9,9 +9,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route path="/clim-dave" exact component={Home} />
+          <Route path="/" component={Home} />
 
-          <Route path="/realisation" exact component={Realisation} />
+          <Route path="/realisation" component={Realisation} />
+
+          <Route path="/dave-clim" component={Home}></Route>
 
           <Route component={NotFound} />
 
