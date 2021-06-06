@@ -13,7 +13,6 @@ function App() {
 
           <Route path="/realisation" component={Realisation} />
 
-          <Route path="/dave-clim" component={Home}></Route>
 
           <Route component={NotFound} />
 
