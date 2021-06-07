@@ -18,8 +18,8 @@ const Navigation = () => {
                 </NavLink>
 
                 
-                <NavLink extact to='/simulateur' activeClassName="nav-active">
-                    <AiOutlineCalculator /> Devis gratuit
+                <NavLink extact to='/devis' activeClassName="nav-active">
+                    <AiOutlineCalculator /> Simulateur de devis
                 </NavLink>
 
                 
