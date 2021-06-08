@@ -1,6 +1,6 @@
 import Home from './Pages/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, HashRouter } from 'react-router-dom';
 import NotFound from './Pages/NotFound';
 import Realisation from './Pages/Realisation';
 import Devis from './Pages/Devis';
@@ -8,7 +8,7 @@ import Devis from './Pages/Devis';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           <Route path="/" exact component={Home} />
 
@@ -19,7 +19,7 @@ function App() {
           <Route component={NotFound} />
 
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

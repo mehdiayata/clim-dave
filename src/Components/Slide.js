@@ -14,17 +14,17 @@ const Slide = () => {
     const [images, setImages] = useState([
         {
             id: 0,
-            src: './images/Slides/0.jpg',
+            src: process.env.PUBLIC_URL + "/images/Slides/0.jpg",
             title: 'In laboris',
             text: "Ea enim ex adipisicing excepteur nulla id.Elit id est elit duis pariatur do quis voluptate. ",
         }, {
             id: 1,
-            src: './images/Slides/1.jpg',
+            src: process.env.PUBLIC_URL + "/images/Slides/1.jpg",
             title: 'Test 1',
             text: "Do adipisicing nulla culpa qui fugiat mollit consectetur ipsum qui ullamco deserunt.",
         }, {
             id: 2,
-            src: './images/Slides/2.jpg',
+            src: process.env.PUBLIC_URL + "/images/Slides/2.jpg",
             title: 'Test 2',
             text: "Est sunt laboris in adipisicing ex mollit minim eiusmod.Id velit mollit commodo Lorem proident minim consequat amet dolore ipsum.",
         },
