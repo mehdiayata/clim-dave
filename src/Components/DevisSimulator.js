@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Form } from 'react-bootstrap';
+import { Form, Row } from 'react-bootstrap';
 import RangeSlider from 'react-bootstrap-range-slider';
+import { AiOutlineQuestionCircle } from 'react-icons/ai';
 
 const DevisSimulator = () => {
 
@@ -76,6 +77,16 @@ const DevisSimulator = () => {
 
     return (
         <div className="devisSimulator">
+            <div class="explication">
+                <Row>
+                    <AiOutlineQuestionCircle />
+                    <h3> Prevoyez votre budget pour la pose d'une climatisation</h3>
+                </Row>
+                <p> Estimez le coût de vos travaux instantanément.
+                Sélectionnez le nombre de pièce à climatiser, puis la surfaces des pièces pour avoir une estimation
+                    du côut de la pose de climatisation. <br />
+                    Puis contactez nous avec le forumulaire de contact, pour une prise de rendez-vous afin d'obtenir plus de détail. </p>
+            </div>
             <Form>
                 <Form.Group controlId="formNbPiece">
                     <Form.Label>Nombre de pièce</Form.Label>
@@ -105,7 +116,7 @@ const DevisSimulator = () => {
                     }
                 })()}
 
-                
+
                 <p className="cout-somme"> {cout} </p>
             </div>
 

@@ -4,6 +4,16 @@
     margin-left: 30px;
 }
 
+.devisSimulator .explication {
+}
+
+.devisSimulator .explication svg {
+    font-size: 32px;
+
+    -webkit-animation: wobble-hor-bottom 0.8s both;
+    animation: wobble-hor-bottom 0.8s both;
+}
+
 .devisSimulator form {
     border: 1px solid rgb(226, 223, 223);
     border-radius: 12px;
@@ -32,12 +42,10 @@
     justify-content: space-evenly;
 }
 
-
 .devisSimulator .cout .cout-subtitle {
     text-transform: uppercase;
     margin: 0px;
 }
-
 
 .devisSimulator .cout .cout-somme {
     padding: 10px;
@@ -47,3 +55,114 @@
     font-weight: bold;
     border-bottom: aqua 3px solid;
 }
+
+@media screen and (max-width: 450px) {
+    .devisSimulator {
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .devisSimulator form {
+        border: 1px solid rgb(226, 223, 223);
+        border-radius: 12px;
+        background-color: #f5f5f5;
+        padding: 20px;
+    }
+
+    .devisSimulator form label {
+        font-size: 12px;
+        border-bottom: 3px solid #61dbfb;
+        padding-bottom: 5px;
+        margin-bottom: 0px;
+    }
+
+    .devisSimulator .cout {
+        text-align: right;
+        margin-top: 10px;
+        margin-left: auto;
+        background: #f5f5f5;
+        border-radius: 5px;
+        border: 1px solid rgb(226, 223, 223);
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .devisSimulator .cout .cout-subtitle {
+        text-transform: uppercase;
+        margin: 0px;
+        display: none;
+    }
+
+    .devisSimulator .cout .cout-somme {
+        padding: 5px;
+        padding-bottom: 0px;
+        margin: 0px;
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: aqua 3px solid;
+    }
+}
+
+ @-webkit-keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  @keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  
