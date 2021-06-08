@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/clim-dave/static/css/main.4b78db2a.chunk.css",
-    "main.js": "/clim-dave/static/js/main.dd12e48a.chunk.js",
-    "main.js.map": "/clim-dave/static/js/main.dd12e48a.chunk.js.map",
+    "main.js": "/clim-dave/static/js/main.cdcfda4d.chunk.js",
+    "main.js.map": "/clim-dave/static/js/main.cdcfda4d.chunk.js.map",
     "runtime-main.js": "/clim-dave/static/js/runtime-main.4ceb2234.js",
     "runtime-main.js.map": "/clim-dave/static/js/runtime-main.4ceb2234.js.map",
     "static/css/2.5e55c4b6.chunk.css": "/clim-dave/static/css/2.5e55c4b6.chunk.css",
-    "static/js/2.b78422b2.chunk.js": "/clim-dave/static/js/2.b78422b2.chunk.js",
-    "static/js/2.b78422b2.chunk.js.map": "/clim-dave/static/js/2.b78422b2.chunk.js.map",
+    "static/js/2.cec9e466.chunk.js": "/clim-dave/static/js/2.cec9e466.chunk.js",
+    "static/js/2.cec9e466.chunk.js.map": "/clim-dave/static/js/2.cec9e466.chunk.js.map",
     "static/js/3.e2b80c6f.chunk.js": "/clim-dave/static/js/3.e2b80c6f.chunk.js",
     "static/js/3.e2b80c6f.chunk.js.map": "/clim-dave/static/js/3.e2b80c6f.chunk.js.map",
     "index.html": "/clim-dave/index.html",
     "static/css/2.5e55c4b6.chunk.css.map": "/clim-dave/static/css/2.5e55c4b6.chunk.css.map",
     "static/css/main.4b78db2a.chunk.css.map": "/clim-dave/static/css/main.4b78db2a.chunk.css.map",
-    "static/js/2.b78422b2.chunk.js.LICENSE.txt": "/clim-dave/static/js/2.b78422b2.chunk.js.LICENSE.txt"
+    "static/js/2.cec9e466.chunk.js.LICENSE.txt": "/clim-dave/static/js/2.cec9e466.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4ceb2234.js",
     "static/css/2.5e55c4b6.chunk.css",
-    "static/js/2.b78422b2.chunk.js",
+    "static/js/2.cec9e466.chunk.js",
     "static/css/main.4b78db2a.chunk.css",
-    "static/js/main.dd12e48a.chunk.js"
+    "static/js/main.cdcfda4d.chunk.js"
   ]
 }
