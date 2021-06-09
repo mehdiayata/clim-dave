@@ -9,21 +9,21 @@ const Navigation = () => {
         <div className="navigation">
             <div className="menu">
 
-                <NavLink extact to='/' activeClassName="nav-active">
+                <NavLink to='/' exact activeClassName="nav-active">
                     <BsHouse/> Home
                 </NavLink>
 
-                <NavLink extact to='/realisation' activeClassName="nav-active">
+                <NavLink to='/realisation' exact activeClassName="nav-active">
                      <GiAutoRepair /> Réalisation
                 </NavLink>
 
                 
-                <NavLink extact to='/devis' activeClassName="nav-active">
+                <NavLink to='/devis' exact activeClassName="nav-active">
                     <AiOutlineCalculator /> Simulateur de devis
                 </NavLink>
 
                 
-                <NavLink extact to='/contact' activeClassName="nav-active">
+                <NavLink to='/contact' exact activeClassName="nav-active">
                     <AiOutlineContacts /> Contact
                 </NavLink>
 
@@ -32,8 +32,8 @@ const Navigation = () => {
 
             <div className="navigation_logo">
                 
-            <NavLink exact to='/test2' activeClassName="nav-active">
-                    <img className="navigation_logo" src="./images/logo192.png"></img>
+            <NavLink  to='/'>
+                    <img className="navigation_logo" src={process.env.PUBLIC_URL + "/images/logo192.png"}></img>
                 </NavLink>
             </div>
 

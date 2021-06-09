@@ -37,7 +37,7 @@ const Slide = () => {
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 {images.map((image) => (
 
-                    <Carousel.Item>
+                    <Carousel.Item key={image.id} >
                         <img
                             className="d-block w-100"
                             src={image.src}

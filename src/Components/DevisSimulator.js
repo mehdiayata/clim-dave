@@ -77,10 +77,10 @@ const DevisSimulator = () => {
 
     return (
         <div className="devisSimulator">
-            <div class="explication">
+            <div className="explication">
                 <Row>
                     <AiOutlineQuestionCircle />
-                    <h3> Prevoyez votre budget pour la pose d'une climatisation</h3>
+                    <h3> Anticiper votre Budget</h3>
                 </Row>
                 <p> Estimez le coût de vos travaux instantanément.
                 Sélectionnez le nombre de pièce à climatiser, puis la surfaces des pièces pour avoir une estimation
