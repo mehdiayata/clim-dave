@@ -19,7 +19,7 @@ const Navigation = () => {
 
                 
                 <NavLink to='/devis' exact activeClassName="nav-active">
-                    <AiOutlineCalculator /> Simulateur de devis
+                    <AiOutlineCalculator /> Devis
                 </NavLink>
 
                 
@@ -33,7 +33,7 @@ const Navigation = () => {
             <div className="navigation_logo">
                 
             <NavLink  to='/'>
-                    <img className="navigation_logo" src={process.env.PUBLIC_URL + "/images/logo192.png"}></img>
+                    <img className="navigation_logo" src={process.env.PUBLIC_URL + "/images/Logos/logo-gdeenergie-black.png"}></img>
                 </NavLink>
             </div>
 

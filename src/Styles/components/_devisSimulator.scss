@@ -59,23 +59,40 @@
 
 @media screen and (max-width: 450px) {
     .devisSimulator {
-        width: 50%;
+        width: 80%;
         margin-top: 50px;
-        margin-left: 30px;
+        margin-left: 0px;
     }
+    .devisSimulator .explication h3 {
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+    
+    .devisSimulator .explication p {
+      font-size: 10px;
+    }
+    
+    .devisSimulator .explication svg {
+        font-size: 16px;
+    
+        -webkit-animation: wobble-hor-bottom 0.8s both;
+        animation: wobble-hor-bottom 0.8s both;
+    }
+    
 
     .devisSimulator form {
         border: 1px solid rgb(226, 223, 223);
         border-radius: 12px;
         background-color: #f5f5f5;
         padding: 20px;
+        width: 100%;
     }
 
     .devisSimulator form label {
         font-size: 12px;
         border-bottom: 3px solid #61dbfb;
         padding-bottom: 5px;
-        margin-bottom: 0px;
+        margin-bottom: 5px;
     }
 
     .devisSimulator .cout {

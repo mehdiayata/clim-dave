@@ -4,3 +4,11 @@
     align-items: center;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 450px) {
+    .devis .corps {
+        display: flex;
+        justify-content: baseline;
+        flex-direction: column;
+    }
+}

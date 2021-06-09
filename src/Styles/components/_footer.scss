@@ -6,14 +6,22 @@
     color: white;
     align-items: center;
     margin-top: 50px;
+    padding: 10px;
 }
 
 .footer .rs svg{
     height: 60px;
     width: 60px;
-    color: #61DAFB;
+    color: yellow;
     margin-right: 50px;
 }
+
+
+.footer .image_footer img{
+    width: 300px;
+    height: 120px;
+}
+
 
 @media only screen and (max-width: 450px) {
     .footer {
@@ -38,13 +46,13 @@
     .footer .rs svg{
         height: 30px;
         width: 30px;
-        color: #61DAFB;
+        color: yellow;
     }
 
 
     .footer .image_footer img{
-        width: 50%;
-        height: 50%;
+        width: 100px;
+        height: 50px;
     }
 
 }

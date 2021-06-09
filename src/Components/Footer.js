@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="image_footer">
-                <img src= {process.env.PUBLIC_URL + "/images/logo192.png"} alt="logo"/>
+                <img src= {process.env.PUBLIC_URL + "/images/Logos/logo-gdeenergie-black.png"} alt="logo"/>
             </div>
 
             <div className="contents">

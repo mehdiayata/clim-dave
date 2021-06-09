@@ -14,7 +14,6 @@ const Info = () => {
 
             <div className="info_rs">
                 <p> <FiFacebook /></p>
-                <p> <FiTwitter /></p>
                 <p> <FiInstagram /></p>
 
             </div>
