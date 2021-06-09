@@ -72,9 +72,6 @@ const DevisSimulator = () => {
     });
 
 
-
-
-
     return (
         <div className="devisSimulator">
             <div className="explication">
@@ -90,7 +87,7 @@ const DevisSimulator = () => {
             <Form>
                 <Form.Group controlId="formNbPiece">
                     <Form.Label>Nombre de pièce</Form.Label>
-                    <RangeSlider min={1} max={10} value={nbPiece} onChange={(e) => setNbPiece(e.target.value)} size='sm' />
+                    <RangeSlider variant="warning" min={1} max={10} value={nbPiece} onChange={(e) => setNbPiece(e.target.value)} size='sm' />
                 </Form.Group>
 
                 <Form.Group controlId="formSurface">

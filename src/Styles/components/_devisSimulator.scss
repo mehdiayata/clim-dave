@@ -24,10 +24,11 @@
 
 .devisSimulator form label {
     font-size: 20px;
-    border-bottom: 3px solid #61dbfb;
+    border-bottom: 4px solid rgb(233, 233, 6);
     padding-bottom: 5px;
     margin-bottom: 25px;
 }
+
 
 .devisSimulator .cout {
     text-align: right;
@@ -54,9 +55,14 @@
     margin: 0px;
     font-size: 25px;
     font-weight: bold;
-    border-bottom: aqua 3px solid;
+
+    border-bottom: 4px solid rgb(233, 233, 6);
 }
 
+.devisSimulator .btn {
+  color: red;
+  background: yellow;
+}
 @media screen and (max-width: 450px) {
     .devisSimulator {
         width: 80%;
@@ -90,7 +96,7 @@
 
     .devisSimulator form label {
         font-size: 12px;
-        border-bottom: 3px solid #61dbfb;
+        border-bottom: 4px solid rgb(233, 233, 6);
         padding-bottom: 5px;
         margin-bottom: 5px;
     }
@@ -117,11 +123,10 @@
 
     .devisSimulator .cout .cout-somme {
         padding: 5px;
-        padding-bottom: 0px;
+        border-bottom: 4px solid rgb(233, 233, 6);
         margin: 0px;
         font-size: 20px;
         font-weight: bold;
-        border-bottom: aqua 3px solid;
     }
 }
 
