@@ -1,0 +1,23 @@
+.certifications {
+    margin-top: 50px;
+    
+}
+
+.certifications .title h2{
+    text-align: center;
+    justify-content: center;
+    font-family: "DM Sans";
+}
+
+
+.certifications .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.certifications img {
+    width: 20%;
+    height: 20%;
+}

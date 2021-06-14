@@ -4,6 +4,8 @@ import Navigation from '../Components/Navigation';
 import Article from '../Components/Article';
 import Info from '../Components/Info';
 import Footer from '../Components/Footer';
+import InfoDetail from '../Components/InfoDetail';
+import Certification from '../Components/Certification';
 
 const Home = () => {
     return (
@@ -12,6 +14,8 @@ const Home = () => {
             <Navigation /> 
             <Slide />
             <Article />
+            <Certification/>
+            <InfoDetail />
             <Footer />
         </div>
     );

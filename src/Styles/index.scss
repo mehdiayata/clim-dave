@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 @import "./_setting.scss";
 @import "./components/_navigation.scss";
 @import "./components/_slide.scss";
@@ -9,3 +9,6 @@
 @import "./pages/_devis.scss";
 @import "./components/_devisSimulator.scss";
 @import "./components/_formContact.scss";
+@import "./components/_infoDetail.scss";
+@import "./components/_certification.scss";
+@import "./components/_ouvrage.scss";
