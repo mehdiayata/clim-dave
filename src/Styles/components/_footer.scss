@@ -1,42 +1,40 @@
 .footer {
     background: black;
     color: white;
-    padding: 10px;
+    padding: 20px;
+    width: 100%;
 }
 .footer_contents {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   
 }
 
-.footer_contents .contents{
+.footer_contents .contents {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-size: 18px;
 }
 
-.footer_contents .contents ul{
+.footer_contents .contents ul {
     margin-right: 30px;
 }
 
-
-.footer_contents .contents li{
+.footer_contents .contents li {
     list-style: none;
     margin: 10px;
 }
 
-.footer_contents .rs svg{
+.footer_contents .rs svg {
     height: 60px;
     width: 60px;
     color: yellow;
     margin-right: 50px;
 }
 
-
-.footer_contents .image_footer img{
+.footer_contents .image_footer img {
     width: 300px;
     height: 120px;
 }
@@ -47,42 +45,60 @@
     color: yellow;
     font-size: 23px;
     justify-content: center;
-
 }
+
 @media only screen and (max-width: 450px) {
     .footer {
         background: black;
         color: white;
-        align-items: center;
-        padding: 10px;
-    }
-    .footer_contents {
+        padding: 20px;
         width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .footer_contents .contents{
-        color: red;
-    }
-
-    
-    .footer_contents .rs {
         display: flex;
         flex-direction: column;
     }
+    .footer_contents {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-    .footer_contents .rs svg{
-        height: 30px;
-        width: 30px;
+    .footer_contents .contents {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .footer_contents .contents ul {
+        margin-right: 30px;
+    }
+
+    .footer_contents .contents li {
+        list-style: none;
+        margin: 10px;
+    }
+
+    .footer_contents .rs svg {
+    align-items: center;
+        height: 60px;
+        width: 60px;
         color: yellow;
+        margin-right: 50px;
     }
 
-
-    .footer_contents .image_footer img{
-        width: 100px;
-        height: 50px;
+    .footer_contents .image_footer  {
+        width: 300px;
+        height: 120px;
+        
     }
 
+    .footer .copyright {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        color: yellow;
+        font-size: 23px;
+        justify-content: center;
+    }
 }

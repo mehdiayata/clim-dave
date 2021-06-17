@@ -6,6 +6,7 @@ import Info from '../Components/Info';
 import Footer from '../Components/Footer';
 import InfoDetail from '../Components/InfoDetail';
 import Certification from '../Components/Certification';
+import TitleHeader from '../Components/TitleHeader';
 
 const Home = () => {
     return (

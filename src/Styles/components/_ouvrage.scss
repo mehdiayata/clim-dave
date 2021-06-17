@@ -1,36 +1,104 @@
-.ouvrages {
-    color: red;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+@media (min-width: 451px) {
+    .ouvrages {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        background-color: rgb(238, 234, 234);
+    }
+
+    .ouvrage {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .ouvrage .title {
+        width: 20%;
+        border-right: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    ul.images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 15px;
+        list-style: none;
+        width: 100%;
+    }
+
+    ul.images > li {
+        position: relative;
+        padding-top: 66%;
+    }
+
+    ul.images > li img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
 }
 
-.ouvrage {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin: 10px;
-    width: 100%;
+@media (max-width: 567px) {
+    ul.images {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
 }
 
-.ouvrage .title {
-    width: 30%;
-}
+@media (max-width: 450px) {
+    .ouvrages {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+       
+    }
 
-.ouvrage .images {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    width: 70%;
-    flex-wrap: wrap;
-}
+    .ouvrage {
+      
+    }
 
-.ouvrage .images .image {
-    margin: 5px;
-}
+    .ouvrage .title {
+        text-align: center;
+        margin-bottom: 23px;
+        width: 100%;
 
-.ouvrage .images .image img {
-    width: 300px;
-    height: 200px;
+    }
+
+    ul.images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(130px, 2fr));
+        grid-gap: 15px;
+        list-style: none;
+        width: 100%;
+        margin-left: 0px
+        
+    }
+
+    ul.images > li {
+        position: relative;
+        padding-top: 66%;;
+        
+    }
+
+    ul.images > li img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
 }

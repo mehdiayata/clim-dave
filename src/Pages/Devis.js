@@ -4,6 +4,7 @@ import DevisSimulator from '../Components/DevisSimulator';
 import Footer from '../Components/Footer';
 import Info from '../Components/Info';
 import Navigation from '../Components/Navigation';
+import TitleHeader from '../Components/TitleHeader';
 
 const Devis = () => {
     return (
@@ -14,6 +15,7 @@ const Devis = () => {
                 <Info />
                 <Navigation />
             </div>
+                <TitleHeader title="Devis"/>
 
             <div className="corps">
                 <DevisSimulator />

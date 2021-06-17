@@ -54,7 +54,6 @@ const Footer = () => {
                 <p> <AiOutlineCopyrightCircle /> 2021 - GDEEnergie</p>
             </Row>
 
-
         </div>
     );
 };
