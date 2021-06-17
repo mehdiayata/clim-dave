@@ -7,8 +7,8 @@ const Info = () => {
     return (
         <div className="info_site">
             <div className="info_contact">
-                <p> <BsPhone /> 06 58 58 02 64</p>
-                <p> <FiMail /> mehdi.ayata@gmail.com</p>
+                <p> <BsPhone /> 06 52 19 72 89</p>
+                <p> <FiMail /> gdeenergie.13@gmail.com</p>
                 <p> <BsHouse />N2 Avenue Dupont - 13500 Martigues</p>
             </div>
 

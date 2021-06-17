@@ -3,7 +3,9 @@ import { Button, Form, Row } from 'react-bootstrap';
 import emailkey from '../emailkey'
 import emailjs from 'emailjs-com';
 import { FcApproval, FcCancel } from 'react-icons/fc';
+import { ImPencil} from 'react-icons/im';
 import ReCAPTCHA from "react-google-recaptcha";
+
 
 const ContactForm = () => {
 
@@ -48,6 +50,7 @@ const ContactForm = () => {
 
     return (
         <div className="form-contact">
+            <p> <ImPencil />  Ecrivez-nous </p>
             <Form className="contact-form" onSubmit={sendEmail} >
                 <Form.Group controlId="form-contact-email">
                     <Form.Label>Adresse Email</Form.Label>
