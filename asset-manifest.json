@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/clim-dave/static/css/main.7fd5f446.chunk.css",
-    "main.js": "/clim-dave/static/js/main.92aed926.chunk.js",
-    "main.js.map": "/clim-dave/static/js/main.92aed926.chunk.js.map",
-    "runtime-main.js": "/clim-dave/static/js/runtime-main.e08b1304.js",
-    "runtime-main.js.map": "/clim-dave/static/js/runtime-main.e08b1304.js.map",
-    "static/css/2.5e55c4b6.chunk.css": "/clim-dave/static/css/2.5e55c4b6.chunk.css",
-    "static/js/2.8c3c7bf0.chunk.js": "/clim-dave/static/js/2.8c3c7bf0.chunk.js",
-    "static/js/2.8c3c7bf0.chunk.js.map": "/clim-dave/static/js/2.8c3c7bf0.chunk.js.map",
-    "static/js/3.c0c93b7a.chunk.js": "/clim-dave/static/js/3.c0c93b7a.chunk.js",
-    "static/js/3.c0c93b7a.chunk.js.map": "/clim-dave/static/js/3.c0c93b7a.chunk.js.map",
+    "main.css": "/clim-dave/static/css/main.3097c1f3.chunk.css",
+    "main.js": "/clim-dave/static/js/main.deaf9e09.chunk.js",
+    "main.js.map": "/clim-dave/static/js/main.deaf9e09.chunk.js.map",
+    "runtime-main.js": "/clim-dave/static/js/runtime-main.43a4b864.js",
+    "runtime-main.js.map": "/clim-dave/static/js/runtime-main.43a4b864.js.map",
+    "static/css/2.603e7b0c.chunk.css": "/clim-dave/static/css/2.603e7b0c.chunk.css",
+    "static/js/2.0cad4a43.chunk.js": "/clim-dave/static/js/2.0cad4a43.chunk.js",
+    "static/js/2.0cad4a43.chunk.js.map": "/clim-dave/static/js/2.0cad4a43.chunk.js.map",
+    "static/js/3.bcdcf8ac.chunk.js": "/clim-dave/static/js/3.bcdcf8ac.chunk.js",
+    "static/js/3.bcdcf8ac.chunk.js.map": "/clim-dave/static/js/3.bcdcf8ac.chunk.js.map",
     "index.html": "/clim-dave/index.html",
-    "static/css/2.5e55c4b6.chunk.css.map": "/clim-dave/static/css/2.5e55c4b6.chunk.css.map",
-    "static/css/main.7fd5f446.chunk.css.map": "/clim-dave/static/css/main.7fd5f446.chunk.css.map",
-    "static/js/2.8c3c7bf0.chunk.js.LICENSE.txt": "/clim-dave/static/js/2.8c3c7bf0.chunk.js.LICENSE.txt"
+    "static/css/2.603e7b0c.chunk.css.map": "/clim-dave/static/css/2.603e7b0c.chunk.css.map",
+    "static/css/main.3097c1f3.chunk.css.map": "/clim-dave/static/css/main.3097c1f3.chunk.css.map",
+    "static/js/2.0cad4a43.chunk.js.LICENSE.txt": "/clim-dave/static/js/2.0cad4a43.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e08b1304.js",
-    "static/css/2.5e55c4b6.chunk.css",
-    "static/js/2.8c3c7bf0.chunk.js",
-    "static/css/main.7fd5f446.chunk.css",
-    "static/js/main.92aed926.chunk.js"
+    "static/js/runtime-main.43a4b864.js",
+    "static/css/2.603e7b0c.chunk.css",
+    "static/js/2.0cad4a43.chunk.js",
+    "static/css/main.3097c1f3.chunk.css",
+    "static/js/main.deaf9e09.chunk.js"
   ]
 }
