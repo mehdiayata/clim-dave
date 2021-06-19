@@ -7,3 +7,25 @@
     border-radius: 5px;
 }
 
+@media screen and (max-width: 450px) {
+    .infoLocalisation {
+        margin-top: 20px;
+    }
+    .infoLocalisation .map-responsive {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+    }
+
+    .infoLocalisation p {
+    }
+
+    .infoLocalisation .map-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+}
