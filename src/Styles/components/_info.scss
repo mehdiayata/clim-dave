@@ -69,3 +69,27 @@
     .info_rs svg {
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    .info_site {
+        display: none;
+    }
+    .navigation {
+        margin-top: 0px;
+    }
+    .info_contact {
+    }
+
+    .info_contact svg {
+    }
+    .info_contact p {
+    }
+
+    .info_rs {
+    }
+
+    .info_rs p {
+    }
+    .info_rs svg {
+    }
+}

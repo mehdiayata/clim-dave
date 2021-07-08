@@ -1,7 +1,9 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
-import { FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
+import { FiFacebook, FiInstagram, FiMail, FiTwitter } from 'react-icons/fi';
 import { AiOutlineCopyrightCircle } from 'react-icons/ai';
+import { NavLink } from 'react-router-dom';
+import { BsHouse, BsPhone } from 'react-icons/bs';
 
 const Footer = () => {
     return (
@@ -16,20 +18,19 @@ const Footer = () => {
                     <div className="contents_nav">
                         <ul>
                             <h4>GDE-Energie</h4>
-                            <li>Accueil</li>
-                            <li>Réalisations</li>
-                            <li>Devis</li>
-                            <li>Contact</li>
+                            <li><NavLink to='/home' exact> Accueil </NavLink></li>
+                            <li> <NavLink to='/realisation' exact> Réalisations </NavLink></li>
+                            <li> <NavLink to='/devis' exact> Devis </NavLink></li>
+                            <li> <NavLink to='/contact' exact> Contact </NavLink></li>
                         </ul>
                     </div>
-
                     <div className="contents_contact">
                         <ul>
                             <h4>Contactez nous</h4>
-                            <li>06 52 19 72 82</li>
-                            <li>GDEENERGIE.13@GMAIL.COM</li>
-                            <li>07 81 70 65 39</li>
-                            <li>38 Avenue des mimosas etc</li>
+                            <li><BsPhone /> 06 52 19 72 82</li>
+                            <li><BsPhone /> 07 81 70 65 39</li>
+                            <li><FiMail /> GDEENERGIE.13@GMAIL.COM</li>
+                            <li><BsHouse />16 Chemin DU VAL DES BOIS <br/> 13009 MARSEILLE</li>
                         </ul>
                     </div>
 

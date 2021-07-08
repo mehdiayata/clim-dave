@@ -29,3 +29,28 @@
         position: absolute;
     }
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    .infoLocalisation {
+        margin-top: 20px;
+    }
+    .infoLocalisation .map-responsive {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+    }
+
+    .infoLocalisation p {
+        font-size: 2px;
+    }
+
+    .infoLocalisation .map-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+}

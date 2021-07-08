@@ -4,6 +4,7 @@ import Info from '../Components/Info';
 import Navigation from '../Components/Navigation';
 import Ouvrage from '../Components/Ouvrage';
 import TitleHeader from '../Components/TitleHeader';
+import InfoDetail from '../Components/InfoDetail';
 
 const Realisation = () => {
     return (
@@ -13,6 +14,7 @@ const Realisation = () => {
             <TitleHeader title={'Réalisation'}/>
             
             <Ouvrage />
+            <InfoDetail />
             <Footer />
         </div>
     );

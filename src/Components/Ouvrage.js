@@ -6,111 +6,42 @@ const Ouvrage = () => {
     const [ouvrages, setOuvrages] = useState([
         {
             id: 0,
-            title: "Exercitation Lorem adipisicing ",
+            title: "Nos climatiseurs ",
             images: [
                 {
                     id: 0,
                     alt: 'Dolore',
-                    src: 'https://dummyimage.com/450x300/000/fff',
+                    src:  process.env.PUBLIC_URL + "/images/Ouvrages/image1.jpeg"
                 },
                 {
                     id: 1,
                     alt: 'Nostrud qui minim voluptate Lorem aliqua adipisicing nostrud veniam sint et mollit culpa ad.',
-                    src: 'https://dummyimage.com/450x300/000/fff',
+                    src:  process.env.PUBLIC_URL + "/images/Ouvrages/image2.jpeg"
                 },
                 {
                     id: 2,
                     alt: 'Sunt aliquip est aute proident excepteur laboris in duis non ullamco aute dolore.',
-                    src: 'https://dummyimage.com/450x300/000/fff',
+                    src:  process.env.PUBLIC_URL + "/images/Ouvrages/image3.jpeg"
                 },
                 {
                     id: 3,
                     alt: 'Aliqua amet laborum nulla excepteur consectetur velit deserunt sunt excepteur.',
-                    src: 'https://dummyimage.com/450x300/000/fff',
+                    src:  process.env.PUBLIC_URL + "/images/Ouvrages/image4.jpeg"
                 },
-                {
-                    id: 4,
-                    alt: 'Ut nostrud cupidatat quis aliquip occaecat sint ea tempor cupidatat ipsum exercitation.',
-                    src: 'https://dummyimage.com/450x300/000/fff',
-                },
-            ]
-        }, {
-            id: 1,
-            title: "Anim sxcepteur. ",
-            images: [
-                {
-                    id: 0,
-                    alt: 'Dolore',
-                    src: 'https://dummyimage.com/450x300/000/fff',
-                },
-                {
-                    id: 1,
-                    alt: 'Nostrud qui minim voluptate Lorem aliqua adipisicing nostrud veniam sint et mollit culpa ad.',
-                    src: 'https://dummyimage.com/450x300/000/fff',
-                },
-                {
-                    id: 2,
-                    alt: 'Sunt aliquip est aute proident excepteur laboris in duis non ullamco aute dolore.',
-                    src: 'https://dummyimage.com/450x300/000/fff',
-                },
-                {
-                    id: 3,
-                    alt: 'Aliqua amet laborum nulla excepteur consectetur velit deserunt sunt excepteur.',
-                    src: 'https://dummyimage.com/450x300/000/fff',
-                },
-                {
-                    id: 4,
-                    alt: 'Ut nostrud cupidatat quis aliquip occaecat sint ea tempor cupidatat ipsum exercitation.',
-                    src: 'https://dummyimage.com/450x300/000/fff',
-                },
+               
+                
                 {
                     id: 5,
                     alt: 'Ut nostrud cupidatat quis aliquip occaecat sint ea tempor cupidatat ipsum exercitation.',
-                    src: 'https://dummyimage.com/450x300/000/fff',
+                    src:  process.env.PUBLIC_URL + "/images/Ouvrages/image6.jpeg"
                 },
                 {
                     id: 6,
                     alt: 'Ut nostrud cupidatat quis aliquip occaecat sint ea tempor cupidatat ipsum exercitation.',
-                    src: 'https://dummyimage.com/450x300/000/fff',
-                },
-                {
-                    id: 7,
-                    alt: 'Ut nostrud cupidatat quis aliquip occaecat sint ea tempor cupidatat ipsum exercitation.',
-                    src: 'https://dummyimage.com/450x300/000/fff',
-                },
-                {
-                    id: 8,
-                    alt: 'Ut nostrud cupidatat quis aliquip occaecat sint ea tempor cupidatat ipsum exercitation.',
-                    src: 'https://dummyimage.com/450x300/000/fff',
+                    src:  process.env.PUBLIC_URL + "/images/Ouvrages/image7.GIF"
                 },
             ]
-        },
-        {
-            id: 2,
-            title: "Dolor tempor anim  ",
-            images: [
-                {
-                    id: 0,
-                    alt: 'Dolore',
-                    src: 'https://dummyimage.com/450x300/000/fff',
-                },
-                {
-                    id: 1,
-                    alt: 'Nostrud qui minim voluptate Lorem aliqua adipisicing nostrud veniam sint et mollit culpa ad.',
-                    src: 'https://dummyimage.com/450x300/000/fff',
-                },
-                {
-                    id: 2,
-                    alt: 'Sunt aliquip est aute proident excepteur laboris in duis non ullamco aute dolore.',
-                    src: 'https://dummyimage.com/450x300/000/fff',
-                },
-                {
-                    id: 3,
-                    alt: 'Aliqua amet laborum nulla excepteur consectetur velit deserunt sunt excepteur.',
-                    src: 'https://dummyimage.com/450x300/000/fff',
-                }
-            ]
-        },
+        }, 
     ]
     );
     return (

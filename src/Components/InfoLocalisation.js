@@ -6,7 +6,7 @@ const InfoLocalisation = () => {
         <div className="infoLocalisation">
 
 
-            <p> <FaMapMarkerAlt />N2 Avenue Dupont - 13500 Martigues</p>
+            <p> <FaMapMarkerAlt />16 Chemin DU VAL DES BOIS 13009 MARSEILLE</p>
 
             <div className="map-responsive">
 

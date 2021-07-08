@@ -24,7 +24,6 @@
 }
 
 @media screen and (max-width: "450px") {
-
     .contact {
         background-color: rgb(255, 255, 255);
     }
@@ -60,6 +59,45 @@
     .contact .localisation svg {
         font-size: 25px;
         margin-right: 10px;
+    }
+}
 
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    .contact {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .contact .localisation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .contact .localisation .form-contact {
+        margin-top: 50px;
+    }
+
+    .contact .localisation .form-contact p {
+        display: block;
+    }
+
+    .contact .form-contact .contact-form {
+        border: 1px solid rgb(226, 223, 223);
+        border-radius: 12px;
+        background-color: #f5f5f5;
+        padding: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact .localisation p {
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    .contact .localisation svg {
+        font-size: 37px;
+        margin-right: 10px;
     }
 }

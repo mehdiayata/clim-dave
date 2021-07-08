@@ -14,11 +14,17 @@
 }
 
 .article .article_contents {
+    white-space: pre-line;
     text-align: center;
 
     font-family: "DM Sans", sans-serif;
 
     padding: 0px 100px 0px 100px;
+}
+
+
+.article .article_contents p {
+    white-space: pre-line;
 }
 
 .cards_article {
@@ -33,6 +39,18 @@
     height: 20%;
 }
 
+.article .article_contents p {
+        
+    margin-top: 10px;
+    font-size: 18px;
+    width: 100%;
+    text-align: justify;;
+
+    font-family: "DM Sans", sans-serif;
+
+    padding: 0px 5px 0px 5px;
+}
+
 @media only screen and (max-width: 450px) {
     .article .article_title {
         text-align: center;
@@ -43,6 +61,18 @@
     .article .article_contents {
         width: 100%;
         text-align: center;
+
+        font-family: "DM Sans", sans-serif;
+
+        padding: 0px 5px 0px 5px;
+    }
+
+    .article .article_contents p {
+        
+        margin-top: 10px;
+        font-size: 18px;
+        width: 100%;
+        text-align: justify;;
 
         font-family: "DM Sans", sans-serif;
 

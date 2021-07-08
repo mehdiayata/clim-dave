@@ -48,3 +48,28 @@
 
     
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    .infoDetail {
+        flex-direction: row;
+        background: rgb(255, 255, 0);
+        color: black;
+        justify-content: space-around;
+        text-transform: uppercase;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        padding: 20px;
+    }
+    
+    .infoDetail a  {
+        color: black;
+    }
+    
+    
+    .infoDetail a:hover  {
+        color: black;
+        text-decoration: none;
+    }
+}

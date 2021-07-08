@@ -43,6 +43,7 @@ const Slide = () => {
                             src={image.src}
                             alt="First slide"
                         />
+                        {/*                         
                         <Carousel.Caption>
                             <h3></h3>
                             <p></p>
@@ -56,8 +57,8 @@ const Slide = () => {
                                 </Card.Body>
                             </Card>
                         </Carousel.Caption>
+                    */}
                     </Carousel.Item>
-
                 ))}
 
             </Carousel>
