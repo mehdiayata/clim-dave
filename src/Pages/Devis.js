@@ -5,6 +5,7 @@ import Footer from '../Components/Footer';
 import Info from '../Components/Info';
 import Navigation from '../Components/Navigation';
 import TitleHeader from '../Components/TitleHeader';
+import InfoDetail from '../Components/InfoDetail';
 
 const Devis = () => {
     return (
@@ -23,6 +24,9 @@ const Devis = () => {
                 <ContactForm />
 
             </div>
+
+            
+            <InfoDetail />
 
             <Footer />
 

@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
-import { Button, Card } from 'react-bootstrap';
 import CardDetail from './CardDetail';
 
 const Article = () => {
-    const [articles, setArticles] = useState([
+    const [articles] = useState([
 
         {
             id: 0,
             title: "06 52 19 72 89",
             subtitle: " GDE ÉNERGIE - Entrerpise certifiée et spécialisée dans la climatisation.",
-            contents: "L\'été arrive, vous avez chaud ? \n \n Vous souhaitez refroidir votre habitation ? GDE ÉNERGIE est votre référence d\'installation de climatisation dans Marseille et ses alentours. Nous effectuons la vente, l\'installation, la mainteance et l\'entretien de tous type de climatiseurs.             Située à Marseille Gde ENERGIE s'occupe pour vous offrir ses services de dépannages dans la domaine du froid.  GDE ÉNERGIE vous propose des solutions adaptée à votre environement. GDE ÉNERGIE met son savoir-faire et son professionnalisme à votre disposition.   \n \n  Pour toute demande n'hésitez pas à nous contacter. "
+            contents: "L'été arrive, vous avez chaud ? \n \n Vous souhaitez refroidir votre habitation ? GDE ÉNERGIE est votre référence d'installation de climatisation dans Marseille et ses alentours. Nous effectuons la vente, l'installation, la mainteance et l'entretien de tous type de climatiseurs.             Située à Marseille Gde ENERGIE s'occupe pour vous offrir ses services de dépannages dans la domaine du froid.  GDE ÉNERGIE vous propose des solutions adaptée à votre environement. GDE ÉNERGIE met son savoir-faire et son professionnalisme à votre disposition.   \n \n  Pour toute demande n'hésitez pas à nous contacter. "
         }, 
         {
             id: 1,
@@ -27,12 +26,18 @@ const Article = () => {
 
     
     
-    const [cards, setImages] = useState([
+    const [cards] = useState([
         [
             {
+                id: 0, 
+                title: 'test',
+                img: process.env.PUBLIC_URL + "/images/Marques/lg.png",
               
             },
-            {
+            { 
+                id: 1, 
+                title: 'test',
+                img: process.env.PUBLIC_URL + "/images/Marques/lg.png",
               
             }
 
@@ -71,7 +76,7 @@ const Article = () => {
                     <div className="cards_article">
                         {cards.map((item) => (
                             item.map((card) => (
-                                card.article_id == article.id &&
+                                card.article_id === article.id &&
                                 <CardDetail card={card} key={card.id} />
 
                             ))
@@ -80,6 +85,7 @@ const Article = () => {
 
                 </div>
             ))}
+            
 
 
         </div>

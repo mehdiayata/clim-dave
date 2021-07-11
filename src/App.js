@@ -1,6 +1,6 @@
 import Home from './Pages/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Switch, Route, HashRouter } from 'react-router-dom';
+import { Switch, Route, HashRouter } from 'react-router-dom';
 import NotFound from './Pages/NotFound';
 import Realisation from './Pages/Realisation';
 import Devis from './Pages/Devis';

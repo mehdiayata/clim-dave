@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Certification = () => {
 
-    const [certifications, setCertifications] = useState([
+    const [certifications] = useState([
         {
             id: 0,
             src: process.env.PUBLIC_URL + "/images/Certifications/ventilationplus.png",
@@ -28,7 +28,7 @@ const Certification = () => {
 
                 {certifications.map((certification) => (
 
-                    <img className="certification" src={certification.src} alt={certification.alt} />
+                    <img key={certification.id} className="certification" src={certification.src} alt={certification.alt} />
 
                 ))}
             </div>

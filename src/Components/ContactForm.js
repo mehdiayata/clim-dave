@@ -31,6 +31,7 @@ const ContactForm = () => {
                 .then(result => {
                     setFormEmailValide(true);
 
+                    alert('Votre email a bien été envoyé');
                     e.target.reset();
                 },
                     error => {
@@ -54,7 +55,7 @@ const ContactForm = () => {
             <Form className="contact-form" onSubmit={sendEmail} >
                 <Form.Group controlId="form-contact-email">
                     <Form.Label>Adresse Email</Form.Label>
-                    <Form.Control required name="formEmail" type="email" placeholder="Ex. admin@gdenergie.fr" onChange={(e) => setFormEmail(e.target.value)} />
+                    <Form.Control required name="formEmail" type="email" placeholder="Ex. david.guedj@gdeenergie.fr" onChange={(e) => setFormEmail(e.target.value)} />
                     <Form.Text className="text-muted">
                         Votre email ne sera jamais transmis à des tierces, ni utilisée à d'autres fins.
                  </Form.Text>

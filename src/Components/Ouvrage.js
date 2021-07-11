@@ -19,11 +19,6 @@ const Ouvrage = () => {
                     src:  process.env.PUBLIC_URL + "/images/Ouvrages/image2.jpeg"
                 },
                 {
-                    id: 2,
-                    alt: 'Sunt aliquip est aute proident excepteur laboris in duis non ullamco aute dolore.',
-                    src:  process.env.PUBLIC_URL + "/images/Ouvrages/image3.jpeg"
-                },
-                {
                     id: 3,
                     alt: 'Aliqua amet laborum nulla excepteur consectetur velit deserunt sunt excepteur.',
                     src:  process.env.PUBLIC_URL + "/images/Ouvrages/image4.jpeg"

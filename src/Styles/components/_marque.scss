@@ -1,0 +1,50 @@
+.marque {
+    
+}
+
+.marque .title h2{
+    text-align: center;
+    justify-content: center;
+    font-family: "DM Sans";
+}
+
+
+.marque .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.marque img {
+    width: 20%;
+    height: 20%;
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    .marque {
+        margin-top: 50px;  
+    }
+    
+    .marque .title h2{
+        text-align: center;
+        justify-content: center;
+        font-family: "DM Sans";
+    }
+    
+    
+    .marque .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 50px;
+    }
+    
+    .marque img {
+        width: 100%;
+        height: 100%;
+    }
+    
+}
