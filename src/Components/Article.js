@@ -7,7 +7,7 @@ const Article = () => {
         {
             id: 0,
             title: "06 52 19 72 89",
-            subtitle: " GDE ÉNERGIE - Entrerpise certifiée et spécialisée dans la climatisation.",
+            subtitle: " GDE ÉNERGIE - Entreprise certifiée et spécialisée dans la climatisation.",
             contents: "L'été arrive, vous avez chaud ? \n \n Vous souhaitez refroidir votre habitation ? GDE ÉNERGIE est votre référence d'installation de climatisation dans Marseille et ses alentours. Nous effectuons la vente, l'installation, la mainteance et l'entretien de tous type de climatiseurs.             Située à Marseille Gde ENERGIE s'occupe pour vous offrir ses services de dépannages dans la domaine du froid.  GDE ÉNERGIE vous propose des solutions adaptée à votre environement. GDE ÉNERGIE met son savoir-faire et son professionnalisme à votre disposition.   \n \n  Pour toute demande n'hésitez pas à nous contacter. "
         }, 
         {
